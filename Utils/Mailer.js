@@ -39,7 +39,7 @@ transporter.sendMail(mailOptions, function (err, info) {
     console.log(err);
     } else {
     console.log('Email sent: ' + info.response);
-    // next()
+     next()
     }
 });
 }
